@@ -6,14 +6,14 @@ const svgToMiniDataURI = require('mini-svg-data-uri');
 
 module.exports = {
     entry: {
-        dxmodules: './modules-index.js'
+        react16: './modules-index.js'
     },
     mode: "production",
     target: 'web',
     node: { global: true },
     output: {
         filename: "[name].bundle.js",
-        path: path.resolve(__dirname, "dist-dx-module"),
+        path: path.resolve(__dirname, "../dist-dx-module"),
         library: "[name]_[fullhash]"
     },
     plugins: [

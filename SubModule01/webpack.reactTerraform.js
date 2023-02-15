@@ -6,7 +6,7 @@ const svgToMiniDataURI = require('mini-svg-data-uri');
 
 module.exports = {
     entry: {
-        dxmodules: './modules-index.js'
+        SubModule01: './modules-index.js'
     },
     mode: "production",
     target: 'web',

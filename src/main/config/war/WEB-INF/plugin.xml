@@ -6,26 +6,14 @@
         <module id="@@auto-replaced-with-rootProject.name@@">
             <contribution type="head">
                 <sub-contribution type="js">
-                    <uri value="res:{war:context-root}/react16.bundle.js"/>
-                    <uri type="debug" value="res:{war:context-root}/react16.bundle.js"/>
-                </sub-contribution>
-            </contribution>
-            <contribution type="head">
-                <sub-contribution type="js">
-                    <uri value="res:{war:context-root}/react18.bundle.js"/>
-                    <uri type="debug" value="res:{war:context-root}/react18.bundle.js"/>
+                    <uri value="res:{war:context-root}/terraform.bundle.js"/>
+                    <uri type="debug" value="res:{war:context-root}/terraform.bundle.js"/>
                 </sub-contribution>
             </contribution>
             <contribution type="head">
                 <sub-contribution type="css">
-                    <uri value="res:{war:context-root}/react16.bundle.css"/>
-                    <uri type="debug" value="res:{war:context-root}/react16.bundle.css"/>
-                </sub-contribution>
-            </contribution>
-            <contribution type="head">
-                <sub-contribution type="css">
-                    <uri value="res:{war:context-root}/react18.bundle.css"/>
-                    <uri type="debug" value="res:{war:context-root}/react18.bundle.css"/>
+                    <uri value="res:{war:context-root}/terraform.bundle.css"/>
+                    <uri type="debug" value="res:{war:context-root}/terraform.bundle.css"/>
                 </sub-contribution>
             </contribution>
         </module>

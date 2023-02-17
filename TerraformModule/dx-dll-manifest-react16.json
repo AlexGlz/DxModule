@@ -1,5 +1,5 @@
 {
-  "name": "react16_7ae70dacfd636e0de1bb",
+  "name": "terraform_2ec40f547bfd126b6122",
   "content": {
     "./modules-index.js": {
       "id": 239,
@@ -175,21 +175,30 @@
           "node_modules/mini-css-extract-plugin/node_modules/ajv/dist/compile/resolve.d.ts@0",
           "node_modules/mini-css-extract-plugin/types/loader.d.ts@0",
           "node_modules/mini-svg-data-uri/index.d.ts@0",
+          "node_modules/@types/dompurify/index.d.ts@0",
+          "node_modules/@types/trusted-types/index.d.ts@0",
+          "node_modules/@types/trusted-types/lib/index.d.ts@0",
           "node_modules/@types/eslint/index.d.ts@0",
           "node_modules/@types/eslint/helpers.d.ts@0",
           "node_modules/@types/eslint-scope/index.d.ts@0",
+          "node_modules/@types/hoist-non-react-statics/index.d.ts@0",
+          "node_modules/@types/react/index.d.ts@0",
+          "node_modules/@types/react/global.d.ts@0",
+          "node_modules/csstype/index.d.ts@0",
+          "node_modules/@types/prop-types/index.d.ts@0",
+          "node_modules/@types/scheduler/tracing.d.ts@0",
+          "node_modules/@types/scheduler/index.d.ts@0",
           "node_modules/typescript/lib/lib.d.ts@0",
           "node_modules/typescript/lib/lib.dom.d.ts@0",
           "node_modules/typescript/lib/lib.webworker.importscripts.d.ts@0",
-          "node_modules/typescript/lib/lib.scripthost.d.ts@0",
-          "node_modules/react/index.js@?",
-          "node_modules/react-dom/index.js@?"
+          "node_modules/typescript/lib/lib.scripthost.d.ts@0"
         ],
         "tsLoaderFileVersion": 0,
-        "exportsType": "namespace"
+        "exportsType": "namespace",
+        "sideEffectFree": true
       },
       "exports": [
-        "ReactV16"
+        "ReactV17"
       ]
     }
   }

@@ -6,22 +6,17 @@ const svgToMiniDataURI = require('mini-svg-data-uri');
 
 module.exports = {
     entry: {
-        SubModule01: './modules-index.js'
+        terraform: './modules-index.js'
     },
     mode: "production",
     target: 'web',
     node: { global: true },
     output: {
         filename: "[name].bundle.js",
-        path: path.resolve(__dirname, "dist-dx-module"),
-        library: "[name]_[fullhash]"
+        path: path.resolve(__dirname, "../dist-dx-module"),
+        library: "[name]"
     },
     plugins: [
-        new DllPlugin({
-            name: "[name]_[fullhash]",
-            path: path.resolve(__dirname, "./dx-dll-manifest-react16.json"),
-            format: true,
-        }),
         new MiniCssExtractPlugin({
             filename: "[name].bundle.css",
         })
